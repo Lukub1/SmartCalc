@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>graph</class>
+ <widget class="QWidget" name="graph">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>График</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="applications-graphics"/>
+  </property>
+  <widget class="QCustomPlot" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>200</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>200</y>
+     <width>261</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_plot">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>200</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>построить график</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_min">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>230</y>
+     <width>130</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>-5</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_max">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>230</y>
+     <width>130</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

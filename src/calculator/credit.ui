@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>credit</class>
+ <widget class="QWidget" name="credit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>302</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_sum">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>0</y>
+     <width>130</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_term">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>30</y>
+     <width>130</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_rate">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>60</y>
+     <width>130</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_an">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>100</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Аннуитет</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_dif">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>90</y>
+     <width>200</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Дифференцированный</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_calc">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>291</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Расситать</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_overpay">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>140</y>
+     <width>130</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_total">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>170</y>
+     <width>130</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>200</y>
+     <width>140</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Платеж</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>140</y>
+     <width>140</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Переплата</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>170</y>
+     <width>140</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Общая выплата</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>0</y>
+     <width>161</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Общая сумма кредита</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>30</y>
+     <width>140</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Срок</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>60</y>
+     <width>140</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Процентная ставка</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>200</y>
+     <width>131</width>
+     <height>101</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

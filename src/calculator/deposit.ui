@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>deposit</class>
+ <widget class="QWidget" name="deposit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>388</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>290</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Начислено</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>290</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сумма налогов</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>290</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сумма дохода</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>371</width>
+     <height>182</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Сумма вклада</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Срок в днях</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Процентная ставка</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Налоговая ставка</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Периодичность выплат</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Капитализация процентов</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_term"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit_sum"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_rate">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_taxRate">
+      <property name="text">
+       <string>13</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_payments"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lineEdit_capital"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>180</y>
+     <width>171</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Список пополнений</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableWidget_depositing"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>180</y>
+     <width>160</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Список снятий</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableWidget_withdrawal"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_income">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>320</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_sumTax">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>320</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_total">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>320</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>360</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Расчитать</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
